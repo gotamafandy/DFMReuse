@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">common</string>
+    <string name="cancel">Cancel</string>
+    <string name="try_again">Try again</string>
+    <string name="downloading_module">Downloading module</string>
+    <string name="installing_module">Installing module</string>
+    <string name="module_installation_failed">Module installation failed</string>
+    <string name="preparing">Preparing</string>
+</resources>

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">consumer</string>
+    <string name="forgot_password">Forgot password</string>
+</resources>

@@ -1,0 +1,12 @@
+ext.flavorConfig = {
+
+    flavorDimensions "user"
+    productFlavors {
+        consumer {
+            dimension "user"
+        }
+        partner {
+            dimension "user"
+        }
+    }
+}

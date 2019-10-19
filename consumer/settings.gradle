@@ -1,0 +1,5 @@
+include ':app', ':common', ':forgotpassword'
+rootProject.name='consumer'
+
+project(':common').projectDir = new File('../common')
+project(':forgotpassword').projectDir = new File('../forgotpassword')

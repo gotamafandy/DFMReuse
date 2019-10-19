@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dist="http://schemas.android.com/apk/distribution"
+    package="com.adrena.dfm.forgotpassword">
+
+    <dist:module
+        dist:instant="false"
+        dist:onDemand="false"
+        dist:title="@string/forgot_password">
+
+        <dist:fusing dist:include="true"/>
+    </dist:module>
+
+    <application>
+        <activity
+            android:name="com.adrena.dfm.forgotpassword.ForgotPasswordActivity"
+            android:label="@string/forgot_password"
+            android:parentActivityName="com.adrena.dfm.partner.MainActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.adrena.dfm.partner.MainActivity"/>
+
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
+
